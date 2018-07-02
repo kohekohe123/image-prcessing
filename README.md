@@ -23,3 +23,15 @@ https://youtu.be/BIOmSkM9Hbs
 フィルタをかけるかどうかをインタラクティブに実行できる。4近傍のラプラシアンフィルタを実装している。読み込んだ画像をconvolve(gray,lf)により、畳み込みで計算してフィルタをかけている。
 
 https://youtu.be/8nAAGx4BsHo
+
+
+(実行環境)
+
+windows10
+
+python 3.6.4
+
+opencv 3.4.1
+
+numpy 1.14.0
+

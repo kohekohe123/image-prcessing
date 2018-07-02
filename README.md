@@ -10,8 +10,16 @@ OpenCV には、OSのフレーム(ウィンドウ)に画像を表示してくれ
 (gray_movie.py)
 cv2.createTrackbar("ON/OFF","gray", 0, 1, myfunc)とすることで、インタラクティブにグレースケール動画に変更できるようにしている。なお、グレースケールへの変換はgray = cv2.cvtColor(frame, cv2.COLOR_RGB2GRAY)によって行っている。
 
+https://youtu.be/ILKOsthLSNs
+
+
 (color_movie.py)
 これもインタラクティブにしている。読み込んだ画像のチャネルをそれぞれ取り出し、γ変換をして元に戻し連続的に表示させている。なお、γ変換の際に0で割ってしまうことのないようにif文で制限している。
 
+https://youtu.be/BIOmSkM9Hbs
+
+
 (filter_movie.py)
 フィルタをかけるかどうかをインタラクティブに実行できる。4近傍のラプラシアンフィルタを実装している。読み込んだ画像をconvolve(gray,lf)により、畳み込みで計算してフィルタをかけている。
+
+https://youtu.be/8nAAGx4BsHo
